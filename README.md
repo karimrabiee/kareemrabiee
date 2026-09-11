@@ -1,21 +1,23 @@
 <div align="center">
 
 # Kareem Rabie
-Cloud Engineer | AWS · Linux · Networking
+Cloud Engineer | AWS | Linux | Networking | Terraform
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kareem-rabiee)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karim-rabiee)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?logo=gmail&logoColor=white)](mailto:kareemrabie2020@gmail.com)
 
 </div>
 
 ## About
 
-Recent IT graduate with a CCNA-level networking background, building hands-on AWS projects focused on secure, scalable, and highly available cloud architectures. Currently preparing for the AWS Certified Solutions Architect – Associate (SAA-C03) while expanding my skills in Infrastructure as Code and container technologies.
+IT graduate focused on AWS Cloud and Infrastructure, with hands-on experience through cloud projects and practical labs.
+Built and tested AWS architectures using core services across compute, networking, storage, databases, security, monitoring, and serverless workloads.
+Currently seeking opportunities to start my career in Cloud or Infrastructure Engineering.
 
 ## Currently Learning
 
 - AWS Certified Solutions Architect – Associate (SAA-C03)
-- Terraform (Infrastructure as Code)
+- HashiCorp Certified: Terraform Associate (004)
 - Docker
 - Kubernetes Fundamentals
 
@@ -73,15 +75,12 @@ Graduation project — AI-assisted Keratoconus detection. Built and trained the 
 
 ## Certifications & Training
 
-**In progress**
-- AWS Certified Solutions Architect – Associate (SAA-C03)
+- AWS Certified Solutions Architect – Associate (SAA-C03)[Credly](https://www.credly.com/earner/earned/badge/1cdb1e21-054e-4958-8b5a-5cb115b66817)
+- HashiCorp Certified: Terraform Associate (004)[Credly](https://www.credly.com/earner/earned/badge/8a81ca74-819c-4c95-953c-4701a9d97988)
 
 **Training**
-- Managing Security in Google Cloud — Coursera ([verify](https://www.coursera.org/account/accomplishments/verify/7TD99SKVBZW9))
 - Cybersecurity For Beginners — ITI Mahara-Tech (VMware Partner) — Code: `kZaVgHtgEW`
 - Linux CLI Basics — Cybrary ([verify](https://app.cybrary.it/profile/OddLamprey2186?tab=cert-completion&cert=CC-1e565f86-544a-4264-b76e-ca5cbd0cd156))
-
-**Badges**
 - AWS Cloud Practitioner (training badge, not the certification exam) — [Credly](https://www.credly.com/badges/e0b1d437-0005-43b3-a4e7-030164caf41f)
 
 ## GitHub Activity
