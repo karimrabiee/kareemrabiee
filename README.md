@@ -87,9 +87,9 @@ Graduation project — AI-assisted Keratoconus detection. Built and trained the 
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=kareemrabiee&show_icons=true&rank_icon=github&hide_border=true" height="165" alt="GitHub Statistics"/>
+<img src="https://github-readme-stats.vercel.app/api?username=karimrabiee&show_icons=true&rank_icon=github&hide_border=true" height="165" alt="GitHub Statistics"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kareemrabiee&layout=compact&hide_border=true&langs_count=6" height="165" alt="Most Used Languages"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=karimrabiee&layout=compact&hide_border=true&langs_count=6" height="165" alt="Most Used Languages"/>
 
 </div>
 
@@ -97,7 +97,7 @@ Graduation project — AI-assisted Keratoconus detection. Built and trained the 
 
 ## Contact
 
-- **LinkedIn:** https://www.linkedin.com/in/kareem-rabiee
+- **LinkedIn:** https://www.linkedin.com/in/karim-rabiee
 - **Email:** kareemrabie2020@gmail.com
 
 Currently open to entry-level Cloud Engineer, Junior DevOps Engineer, and Cloud Security Engineer opportunities.
