@@ -1,103 +1,64 @@
 <div align="center">
 
-# Kareem Rabie
-Cloud Engineer | AWS | Linux | Networking | Terraform
+# Karim Rabie Eladl
+**AWS Cloud & Infrastructure | Terraform | GitHub Actions CI/CD**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karim-rabiee)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?logo=gmail&logoColor=white)](mailto:kareemrabie2020@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/karim-rabiee) · [GitHub](https://github.com/karimrabiee)
 
 </div>
 
 ## About
 
-IT graduate focused on AWS Cloud and Infrastructure, with hands-on experience through cloud projects and practical labs.
-Built and tested AWS architectures using core services across compute, networking, storage, databases, security, monitoring, and serverless workloads.
-Currently seeking opportunities to start my career in Cloud or Infrastructure Engineering.
+I build and document AWS infrastructure projects with an emphasis on secure networking, infrastructure as code, and deployment automation.
 
-## Currently Learning
+My hands-on portfolio includes a Terraform-based, two-Availability-Zone web application and a serverless image-processing pipeline. I focus on clear architecture, scoped IAM permissions, repeatable deployment steps, validation evidence, and honest documentation of limitations.
 
-- AWS Certified Solutions Architect – Associate (SAA-C03)
-- HashiCorp Certified: Terraform Associate (004)
-- Docker
-- Kubernetes Fundamentals
+I'm interested in AWS Cloud Engineer, Cloud Support, Cloud Operations, and Junior DevOps opportunities.
 
-## Skills
+## Core Technologies
 
-**Cloud**
-- Amazon EC2, Amazon VPC, Auto Scaling, Application Load Balancer
-- Amazon RDS (Multi-AZ)
-- AWS Lambda, Amazon API Gateway
-- Amazon S3, Amazon DynamoDB, Amazon SQS
-- Amazon CloudFront
+- **AWS:** VPC, EC2, ALB, Auto Scaling, RDS, S3, Lambda, API Gateway, SQS, DynamoDB, CloudFront, WAF, IAM, KMS, CloudWatch, CloudTrail, Systems Manager
+- **Infrastructure as Code:** Terraform
+- **CI/CD:** GitHub Actions, AWS IAM OIDC
+- **Operating Systems & Scripting:** Linux, Bash, Python
+- **Networking:** TCP/IP, VLANs, OSPF, ACLs, NAT
+- **Tools:** Git, Wireshark, Cisco Packet Tracer
 
-**Security**
-- IAM (least privilege)
-- AWS WAF, AWS KMS
-- Amazon GuardDuty, AWS Security Hub
+## Selected Projects
 
-**Monitoring & Operations**
-- Amazon CloudWatch, AWS CloudTrail, Amazon SNS
+### [AWS Secure & Highly Available 3-Tier Web Application](https://github.com/karimrabiee/AWS-Secure-Scalable-Web-Application-Architecture)
 
-**Networking**
-- VLANs, OSPF, ACLs, NAT (Cisco IOS)
+A two-AZ AWS web application with a public Application Load Balancer, private EC2 Auto Scaling instances, private RDS MySQL, AWS WAF, Secrets Manager, and Systems Manager access. Infrastructure is organized into Terraform modules and deployed through a guarded GitHub Actions workflow using AWS IAM OIDC.
 
-**Operating Systems**
-- Linux, Windows Server Fundamentals
+**Documented validation:** two healthy ALB targets across Availability Zones, private instances and database, IMDSv2 enforcement, no inbound SSH rule, selected WAF test requests returning 403, and a least-privilege access check.
 
-**Programming**
-- Python
-- Bash
+The repository distinguishes current Terraform `dev` evidence from historical manual-build tests and unverified production-like scenarios.
 
-**Version Control**
-- Git
+### [Global Secure Image Processing Pipeline](https://github.com/karimrabiee/global-secure-image-processing-pipeline)
 
-**Tools**
-- Wireshark
-- Cisco Packet Tracer
+An event-driven AWS image-processing project using presigned S3 uploads, Lambda, SQS with a dead-letter queue, DynamoDB metadata, and CloudFront Origin Access Control. Security components include IAM policies, KMS, WAF, CloudTrail, GuardDuty, and Security Hub.
 
-## Projects
+The repository documents owner-run validation for upload, processing, metadata, private delivery, selected WAF tests, DLQ behavior, and optional data-plane replication. Multi-region ingestion recovery remains manual; this is not presented as automatic full-stack failover.
 
-### [AWS Secure & Scalable Web Application Architecture](https://github.com/kareemrabiee/AWS-Secure-Scalable-Web-Application-Architecture)
-Production-inspired 3-tier AWS architecture: public-facing ALB in front of a private EC2 Auto Scaling group, backed by Multi-AZ RDS. WAF at the edge, Systems Manager instead of direct SSH, and CloudWatch/SNS/CloudTrail for monitoring and auditing. Includes documented validation tests — RDS failover, auto-scaling under load, and WAF blocking XSS requests.
-**Stack:** VPC · ALB · Auto Scaling · EC2 · RDS Multi-AZ · WAF · CloudWatch · SNS · CloudTrail
+### [Secure Enterprise Network — CCNA Lab](https://github.com/karimrabiee/Secure-Enterprise-Network-CCNA)
 
-### [Global Secure Image Processing Pipeline](https://github.com/kareemrabiee/global-secure-image-processing-pipeline)
-Serverless, event-driven image processing platform: presigned S3 uploads, SQS-decoupled Lambda processing, and CloudFront with Origin Access Control for private global delivery. KMS encryption, edge WAF, GuardDuty/Security Hub, and a documented threat model. Includes an optional multi-region disaster recovery design (S3 cross-region replication, DynamoDB Global Tables).
-**Stack:** API Gateway · Lambda · S3 · SQS · DynamoDB · CloudFront · WAF · KMS · CloudWatch
+A Packet Tracer network lab covering VLAN segmentation, routing, ACLs, NAT, and secure device management, with configuration evidence and verification notes.
 
-### [Secure Enterprise Network – CCNA Lab](https://github.com/kareemrabiee/Secure-Enterprise-Network-CCNA)
-Multi-site enterprise network lab (HQ, branch, DMZ) covering VLAN segmentation, extended ACLs, OSPF with MD5 authentication, PAT/static NAT, and SSH-only device management. Validated using Cisco IOS verification commands, documented with screenshots.
-**Stack:** Cisco IOS · Packet Tracer
+## Certifications
 
-### [Smart Healthcare AI Platform](https://github.com/kareemrabiee/smart-healthcare-ai-platform)
-Graduation project — AI-assisted Keratoconus detection. Built and trained the diagnostic model.
-**Stack:** Python · TensorFlow · Keras · Flask
+- **AWS Certified Solutions Architect – Associate (SAA-C03)**
+- **HashiCorp Certified: Terraform Associate (004)**
 
-## Certifications & Training
+## Additional Training
 
-- AWS Certified Solutions Architect – Associate (SAA-C03)[Credly](https://www.credly.com/earner/earned/badge/1cdb1e21-054e-4958-8b5a-5cb115b66817)
-- HashiCorp Certified: Terraform Associate (004)[Credly](https://www.credly.com/earner/earned/badge/8a81ca74-819c-4c95-953c-4701a9d97988)
-
-**Training**
-- Cybersecurity For Beginners — ITI Mahara-Tech (VMware Partner) — Code: `kZaVgHtgEW`
-- Linux CLI Basics — Cybrary ([verify](https://app.cybrary.it/profile/OddLamprey2186?tab=cert-completion&cert=CC-1e565f86-544a-4264-b76e-ca5cbd0cd156))
-- AWS Cloud Practitioner (training badge, not the certification exam) — [Credly](https://www.credly.com/badges/e0b1d437-0005-43b3-a4e7-030164caf41f)
-
-## GitHub Activity
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=karimrabiee&show_icons=true&rank_icon=github&hide_border=true" height="165" alt="GitHub Statistics"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=karimrabiee&layout=compact&hide_border=true&langs_count=6" height="165" alt="Most Used Languages"/>
-
-</div>
-
----
+- Kubernetes for Absolute Beginners — KodeKloud
+- GitHub Actions — KodeKloud
+- Docker for Absolute Beginners — KodeKloud
+- Linux CLI Basics — Cybrary
+- Cybersecurity for Beginners — MaharaTech
 
 ## Contact
 
 - **LinkedIn:** https://www.linkedin.com/in/karim-rabiee
-- **Email:** kareemrabie2020@gmail.com
+- **GitHub:** https://github.com/karimrabiee
 
-Currently open to entry-level Cloud Engineer, Junior DevOps Engineer, and Cloud Security Engineer opportunities.
